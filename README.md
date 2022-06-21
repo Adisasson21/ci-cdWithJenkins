@@ -11,8 +11,8 @@ Follow these commands ..
 - systemctl start jenkins *let's see if jenkins is running - systemctl status jenkins
 - systemctl enable jenkins
 
-On your browse hit <Public IPv4 address>:8080  --> You can see that address is not reachable.
-Let’s add the inbound rule to the security group.
-Follow these steps:
-Goto security tab --> click on the security group link --> go down to 'edit inbound rules' --> add rule --> for the type option: select 'all traffic' & for the source: select anywhere 0.0.0.0/0 
-*Once you click on the Save rules and you can see the newly added rule under the security tab.
+On your browse hit <Public IPv4 address>:8080  --> You can see that address is not reachable./n
+Let’s add the inbound rule to the security group./n
+Follow these steps:/n
+Goto security tab --> click on the security group link --> go down to 'edit inbound rules' --> add rule --> for the type option: select 'all traffic' & for the source: select anywhere 0.0.0.0/0 /n
+*Once you click on the Save rules and you can see the newly added rule under the security tab./n
