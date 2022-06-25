@@ -17,6 +17,10 @@
 <p> On your browse hit <Public IPv4 address>:8080  --> You can see that address is not reachable.
 <br>Let’s add the inbound rule to the security group.
 <br>Follow these steps:
-<br>Goto security tab --> click on the security group link --> go down to 'edit inbound rules' --> add rule --> for the type option: select 'all traffic' & for the source: select anywhere 0.0.0.0/0 
+<br>Go to the security tab in your instance --> click on the security group link --> go down to the 'edit inbound rules' & click --> add rule --> for the type option: select 'all traffic' & for the source: select anywhere 0.0.0.0/0 
 <br>*Once you click on the Save rules and you can see the newly added rule under the security tab.
   </p>
+---
+Setup Jenkins
+  <p> While we done with the rule and jenkins is working from the internet, we see that jenkins need a password. 
+    <br< we need to go back to the instance and write this command --> cat /var/lib/jenkins/secrets/initialAdminPassword then we get a sequence, copy that
